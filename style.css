@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav__title__home,.nav__title__reciepe,.nav__title__contact{
+    display: inline-block;
+    color: grey;
+    
+}
+
+.section-1{
+    text-align: center;
+}
+
+.section-1__reciepe{
+    border: solid black 2px;
+    width: 220px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.section-1__button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.footer-section{
+    /* display: inline-block; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.footer-section__table{
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-section__submit{
+    background-color: yellow;
+    color: black;
+    width: 450px;
+    padding: 5px;
+}
+
+.footer-section__submit:hover{
+    cursor: pointer;
+}
